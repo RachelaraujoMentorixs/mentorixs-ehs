@@ -1,3 +1,2 @@
 // Configuração do Mentorixs EHS em produção (ehs.mentorixs.com.br).
-// Preencha com Project Settings › API do Supabase. A chave "anon" é pública por natureza; a segurança vem das regras do banco (RLS).
-window.MENTORIXS_CONFIG = { modo: 'producao', supabaseUrl: '', supabaseAnonKey: '' }
+window.MENTORIXS_CONFIG = { modo: 'producao', supabaseUrl: 'https://rvwbameqatclfnaesqwe.supabase.co', supabaseAnonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJ2d2JhbWVxYXRjbGZuYWVzcXdlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTQ0MTI2MzUsImV4cCI6MjEwOTk4ODYzNX0.4yRqi1gFAYJSA-YJtwPPlt-PhPwGi8MbFpsnxLDg3SM' }
