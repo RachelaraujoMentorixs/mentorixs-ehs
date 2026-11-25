@@ -1,1 +1,0 @@
-import{j as s,C as t}from"./index-BytIlNM-.js";function C({className:r="",style:o,children:a,...e}){return s.jsx("div",{className:`bg-white border rounded-xl p-4 ${r}`,style:{borderColor:t.bordaCard,...o},...e,children:a})}export{C};

@@ -1,6 +1,0 @@
-import{h as x,j as t,C as n,L as l}from"./index-BytIlNM-.js";/**
- * @license lucide-react v1.65.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */const i={name:"inbox",size:24,node:[["polyline",{points:"22 12 16 12 14 15 10 15 8 12 2 12",key:"o97t9d"}],["path",{d:"M5.45 5.11 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z",key:"oot6mr"}]]};i.node;const r=x(i);function d({icone:m=r,titulo:s,descricao:o,acao:e}){return t.jsxs("div",{className:"flex flex-col items-center justify-center text-center py-10 px-4 gap-1.5",children:[t.jsx(m,{size:28,style:{color:n.textoMudo}}),t.jsx("div",{className:"text-sm font-medium",style:{color:n.textoPrimario},children:s}),o&&t.jsx("div",{className:"text-xs max-w-xs",style:{color:n.textoMudo},children:o}),e&&"caminho"in e&&t.jsx(l,{to:e.caminho,className:"text-xs font-medium mt-1 hover:underline max-md:inline-flex max-md:items-center max-md:min-h-[40px] max-md:px-2",style:{color:n.acento},children:e.rotulo}),e&&"aoClicar"in e&&t.jsx("button",{onClick:e.aoClicar,className:"text-xs font-medium mt-1 hover:underline max-md:inline-flex max-md:items-center max-md:min-h-[40px] max-md:px-2",style:{color:n.acento},children:e.rotulo})]})}export{d as E};
